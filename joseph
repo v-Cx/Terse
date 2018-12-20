@@ -1,0 +1,39 @@
+$number = $_POST['player_numbers'];
+					$set = array();
+					for ($i = 0; $i < $number; $i++) { 
+						$set[$i] = $i + 1;
+					}
+					$say = count($set) - 1;
+					for ($i = 1; $i < $number; $i = $i + 2) { 
+						unset($set[$i]);
+					} 
+					while (count($set) != 1) {
+						if (empty($set[$say]))
+						{
+							$say = count($set) - 1;
+							$set = array_values($set);
+							for ($i = 1; $i < $number; $i = $i + 2) { 
+								unset($set[$i]);
+							}
+						}
+						else 
+						{
+							$say = count($set) - 1;
+							$set = array_values($set);
+							for ($i = 0; $i < $number; $i = $i + 2) { 
+								unset($set[$i]);
+							}
+						}
+					}
+					$set = array_values($set);
+          
+          
+          ## Arkadaşlar Merhaba.
+          ## Joseph(Yusuf) Problemini bir çoğunuz bilirsiniz ulas arkadaşım böyle bir kodlama ile olayı bitirmiş bulunuyor.
+          ## denemek için: http://ul4s.cf/joseph-problem/# buradan deneyebilirsiniz.
+          ## Joseph Problemini bilmeyen arkadaşlar için kısaca özet
+          ## Sizin belirlediğiniz kişi sayısına göre insanlar oluşuyor
+          ## Bir tane kılıç var
+          ## Bir numara kılıç ile bir sağındakini öldürüp bir sonrakine veriyor
+          ## Kılıç en son kimde kalır sorusuna cevap
+          ## İyi kodlamalar
