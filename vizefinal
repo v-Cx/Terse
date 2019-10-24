@@ -1,14 +1,3 @@
-Arkadaşımla beraber öğrendiğimiz phyton dilinde kendimizce yaptığımız uzun olmayan kısa ve oz anlaşılır halde olan kodları sizlerle
-paylaşmak istiyoruz.
-
-İLK KODUMUZ
-
-Vizeye giren bir arkadaşımızın finalden kaç alması gerektiğini bu kodlama ile yaptık
-
 def vizeargs(*args): 
     output = (60 - (args[0]*0.4))/0.6
-    print (str(object="Geçme Notunuz : "),  int(output))
-    
-    
-    ANLAMADIĞINIZ YERLER OLURSA BİZLERE SORABİLİRSİNİZ.
-    ÇAYLAK ÜNİVERSİTELER
+    print (str(object="Note you need: "),  int(output))
