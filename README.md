@@ -1,2 +1,2 @@
-# kisaveoz
-Kısa ve Öz Kodlananlar
+#ShortandConcise
+Short and concise coded ones
