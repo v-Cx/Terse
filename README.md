@@ -1,7 +1,7 @@
 #ShortandConcise
 Short and concise coded ones
 ######################################################
-# Hello, Friends.
+## ---------> Joseph Problem <----------- ##
 ## Joseph(Joseph) You know a lot of the problem Ulas my friend has finished the event with such a coding.
 ## For friends who don't know the Joseph problem
 ## People are made up by the number of people you specify
