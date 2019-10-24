@@ -26,14 +26,3 @@ $number = $_POST['player_numbers'];
 						}
 					}
 					$set = array_values($set);
-          
-          
-          ## Arkadaşlar Merhaba.
-          ## Joseph(Yusuf) Problemini bir çoğunuz bilirsiniz ulas arkadaşım böyle bir kodlama ile olayı bitirmiş bulunuyor.
-          ## denemek için: http://ul4s.cf/joseph-problem/# buradan deneyebilirsiniz.
-          ## Joseph Problemini bilmeyen arkadaşlar için kısaca özet
-          ## Sizin belirlediğiniz kişi sayısına göre insanlar oluşuyor
-          ## Bir tane kılıç var
-          ## Bir numara kılıç ile bir sağındakini öldürüp bir sonrakine veriyor
-          ## Kılıç en son kimde kalır sorusuna cevap
-          ## İyi kodlamalar
