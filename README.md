@@ -1,15 +1,13 @@
-#ShortandConcise
-Short and concise coded ones
-######################################################
-## ---------> Joseph Problem (joseph.php) <----------- ##
-## Joseph(Joseph) You know a lot of the problem Ulas my friend has finished the event with such a coding.
-## For friends who don't know the Joseph problem
-## People are made up by the number of people you specify
-## There's a sword
-## Number one kills one to the right with a sword and gives it to the next
-## Answer the question of who has the sword last
-## Good coding
-######################################################
-## ---------> Grade Point Average & Grade Requirement (avarage.py) <----------- ##
-# Grade point average for college students and the grade required to pass the course. #
+# Terse
 
+> Short and concise codes will be shared in this 
+
+### From time to time this folder will be updated.
+
+#### Index
+- [Calculation of University Exam Grade Point Average (in shortest and simplest form)][avarage]
+- [Solution of Josephus Problem with PHP][josephus-php]
+
+[terses]: <https://github.com/v-Cx/kisaveoz>
+[avarage]: <https://github.com/v-Cx/kisaveoz/blob/master/avarage>
+[josephus-php]: <https://github.com/v-Cx/kisaveoz/blob/master/joseph>
